@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Basic styling - you'll likely want to expand on this */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4; /* Light background */
+            color: #333; /* Dark text color */
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #ddd;
+            padding: 10px;
+            text-align: center; /* Center the navigation links */
+        }
+        nav a {
+            display: inline-block; /* Make the links behave like blocks */
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #333;
+            margin: 0 5px; /* Add some spacing between links */
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        #about { /* Example of styling a specific section */
+          text-align: center; /* Center the text within the about section */
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            position: fixed; /* Fixed to the bottom */
+            bottom: 0;
+            width: 100%;
+        }
+        img {
+          max-width: 200px; /* Limit image width */
+          height: auto;
+          display: block; /* Makes the image a block element */
+          margin: 0 auto; /* Centers the image */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="placeholder.jpg" alt="Your Photo">  <p>I am a passionate web developer with experience in HTML, CSS, and JavaScript. I love building creative and user-friendly websites.  I'm always learning new technologies and looking for exciting projects to work on.  This is a brief summary, feel free to expand on it!</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>A brief description of project 1.  You can add an image or link here.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>A brief description of project 2.  You can add an image or link here.</p>
+        </div>
+        </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: your.email@example.com</p>
+        <p>LinkedIn: linkedin.com/in/yourprofile</p>
+        <p>GitHub: github.com/yourusername</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Portfolio</p>
+    </footer>
+
+</body>
+</html>
